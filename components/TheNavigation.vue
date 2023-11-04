@@ -6,7 +6,7 @@ const route = useRoute();
 
 const navigation = [
     { name: 'Home', href: '/', current: route.name === 'index' },
-    { name: 'Blog', href: '/blog', current: route.name.includes( 'blog' ) },
+    { name: 'Blog', href: '/blog', current: route.name === 'blog' },
     { name: 'About', href: '/about', current: route.name === 'about' },
 ];
 </script>
