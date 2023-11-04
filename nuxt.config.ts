@@ -6,6 +6,16 @@ export default defineNuxtConfig( {
         '@nuxt/content',
         'nuxt-icon'
     ],
+    content: {
+        // https://content.nuxtjs.org/api/configuration
+        highlight: {
+            theme: 'monokai',
+            preload: ['ts', 'js', 'css', 'javascript', 'vue', 'tsx', 'bash', 'php', 'json', 'sql']
+        },
+        markdown: {
+            // ...
+        },
+    },
     postcss: {
         plugins: {
             tailwindcss: {},
