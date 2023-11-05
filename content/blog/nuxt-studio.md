@@ -1,31 +1,34 @@
-# Nuxt studio
+---
+title: Welcome on this markdown page
+description: This is the front matter of the markdown
+date: 2023-11-05
+author: Angelino
+cover: nuxt-studio.png
+tags:
+  - development
+  - nuxt 
+---
 
-My first blog post
-
-## Documentation
+# Meet Nuxt Studio
 
 ![nuxt-studio.png](/images/blog/nuxt-studio.png)
 
-You can use lists
+## The pro version of Nuxt Content
 
-- list item 1
-- list item 2
-- list item 3
+Nuxt Studio is the git-based CMS powered by Nuxt Content.
+Opening a new way to collaborate between developers and marketing teams.
 
-```javascript
-const hello = "world";
-console.log(hello);
-```
-> Quote block
+### Daily edit made fast
+Manage your content without a separate database, easy version control with Git history, minimal setup and the beauty of storing content alongside code
 
-Documentation: [Nuxt Studio](https://nuxt.studio/)
+### GitHub integration
+Create a branch, commit your changes, open a pull request and merge your work.
 
-**This is bold text**
+### Enable Studio on your repo
+Import any GitHub project based on Nuxt Content and start editing it.
 
-_This is italic text_
+### Start with a theme
+Jumpstart your next website with our tailor-made themes. Deploy them in one click.
 
-`Hello world!`
-
-:::callout{title='Hello World Callout'}
-This is the Callout Component
-:::
+### Deploy everywhere
+Studio works on any hosting platform. Deploy on GitHub pages in one click, set your custom domain or use our .nuxt.space domain for free.

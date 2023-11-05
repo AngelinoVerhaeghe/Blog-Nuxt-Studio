@@ -9,12 +9,12 @@ export default defineNuxtConfig( {
     content: {
         // https://content.nuxtjs.org/api/configuration
         highlight: {
-            theme: 'monokai',
+            theme: 'dracula',
             preload: ['ts', 'js', 'css', 'javascript', 'vue', 'tsx', 'bash', 'php', 'json', 'sql']
         },
         markdown: {
-            // ...
-        },
+            anchorLinks: false,
+        }
     },
     postcss: {
         plugins: {
