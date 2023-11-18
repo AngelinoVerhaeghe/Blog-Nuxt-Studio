@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="text-white">
+    <div>
         <p>Tag development</p>
     </div>
 </template>
