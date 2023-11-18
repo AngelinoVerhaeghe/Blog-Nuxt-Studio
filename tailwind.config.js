@@ -20,22 +20,22 @@ export default {
                     css: {
                         'h1': {
                             fontFamily: 'Merriweather, sans-serif',
-                            color: '#fbbf24',
+                            color: '#1e293b',
                         },
                         'h2': {
                             fontFamily: 'Merriweather, sans-serif',
-                            color: '#fbbf24',
+                            color: '#1e293b',
                         },
                         'h3': {
                             fontFamily: 'Merriweather, sans-serif',
-                            color: '#fbbf24',
+                            color: '#1e293b',
                         },
                         'p': {
-                            color: '#FFFFFF',
+                            color: '#1e293b',
                         },
                         'p strong': {
                             fontWeight: '600',
-                            color: '#FFFFFF'
+                            color: '#1e293b'
                         },
                         'blockquote': {
                             fontWeight: '500',
@@ -46,13 +46,13 @@ export default {
                             quotes: '"\\201C""\\201D""\\2018""\\2019"',
                         },
                         'code': {
-                            color: '#FFFFFF',
+                            color: '#1e293b',
                         },
                         'ul > li::marker': {
-                            color: '#fbbf24',
+                            color: '#1e293b',
                         },
                         'li': {
-                            color: '#FFFFFF',
+                            color: '#1e293b',
                         },
                     },
                 },
@@ -61,4 +61,3 @@ export default {
     },
     plugins: [ require('@tailwindcss/typography') ],
 }
-
